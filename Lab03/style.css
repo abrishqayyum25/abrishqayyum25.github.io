@@ -1,0 +1,51 @@
+body {
+    background-color: #edfafa; 
+    font-family: Arial, sans-serif;
+    font-size : 20px;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50; 
+    text-align: center;
+}
+
+h2 {
+    color: #34495e; 
+}
+
+#map {
+    color: #1a5276; 
+}
+
+/* Class selector */
+.highlight {
+    color: #7d6608; 
+}
+
+
+a[href^="https"] {
+    color: #117a65; 
+}
+
+a:link {
+    color: #117a65; 
+}
+
+a:visited {
+    color: #6c3483; 
+}
+
+a:hover {
+    color: #d35400; 
+}
+
+p::first-letter {
+    font-size: 30px;
+    color: #c0392b; 
+}
+
+h2 + ul {
+        background-color: #c7e9e9; 
+    }
+
