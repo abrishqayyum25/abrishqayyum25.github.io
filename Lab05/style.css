@@ -1,0 +1,190 @@
+body {
+    background-color: #edfafa; 
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 1.2vw; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #e8f8f5;
+    padding: 1.2vw; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+footer div {
+    font-size: 1vw; 
+    color: #555;
+}
+
+h1, h2 {
+    color: #1a5276; 
+}
+h1 {
+    margin-top: 2vw;
+    font-size: 3vw;
+}
+h2 {
+    border-bottom: 0.3vw solid #a9cce3;
+    padding-bottom: 0.5vw;
+    margin-bottom: 1vw;
+    font-size: 2vw;
+}
+
+a[href^="https"] { color: #117a65; }
+a:visited { color: #341441; }
+a:hover { color: #974915; text-decoration: underline; }
+.highlight {
+    color: #0e6251;
+    font-weight: bold;
+    background-color: #d6eaf8; 
+    padding: 0.5vw;
+    border-radius: 0.5vw;
+}
+
+.profile-pic {
+    width: 25vw;
+    height: auto;
+    border: 0.4vw solid #2c3e50;
+    padding: 2vw;
+    margin: 2vw auto;
+    display: block;
+    box-shadow: 0.4vw 0.4vw 1vw rgba(0,0,0,0.2);
+}
+p::first-letter {
+    font-size: 2vw;
+    color: #0b3c5d;
+}
+
+.details-box {
+    width: 65vw;
+    height: 15vw; 
+    border: 0.2vw solid #a9a9a9;
+    overflow: hidden auto;
+    background-color: #f4fafd; 
+    padding: 1.2vw;
+    margin: 1vw auto;
+    box-shadow: 0.2vw 0.2vw 0.5vw rgba(0,0,0,0.1);
+    border-radius: 0.6vw;
+}
+
+table {
+    width: 85%;
+    border-collapse: collapse;
+    margin: 2vw auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 1vw rgba(0,0,0,0.2);
+    border-radius: 1vw;
+    overflow: hidden;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.5vw;
+    margin: 1vw;
+    text-decoration: underline;
+    color: #003366;
+}
+
+col.schoolName, col.facilityName { width: 30%; }
+col.schoolType, col.facilityType { width: 25%; }
+col.schoolStudents, col.facilityDetails { width: 45%; }
+
+thead {
+    background-color: #b0c4de;
+    color: #000;
+}
+tfoot {
+    background-color: #dcdcdc;
+    font-style: italic;
+    text-align: center;
+}
+th, td {
+    border: 0.15vw solid #555;
+    padding: 1vw;
+    text-align: center;
+}
+tbody tr:nth-child(even) { background-color: #f9f9f9; }
+tbody tr:hover { background-color: #f0ffff; }
+
+td[rowspan], td[colspan] {
+    background-color: #eaf2f8;
+    font-weight: bold;
+}
+form {
+    background-color: #e0f7fa; 
+    border: 2px solid #0288d1;
+    padding: 30px;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 128, 255, 0.3);
+    text-align: left;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+legend {
+    color: #01579b;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+label {
+    color: #004d66;
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    font-size: 1.1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 14px;
+    margin-top: 8px;
+    font-size: 1rem;
+    border: 1.8px solid #4fc3f7;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #f9feff;
+    color: #003344;
+    transition: 0.3s;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #666;
+    font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #0778b4;
+    box-shadow: 0 0 8px rgba(0, 128, 255, 0.3);
+}
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #365566;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #01579b;
+}
