@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Village - SAROBA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#special">Special Things</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#map">Map</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to My Village Saroba</h1> 
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About My Village</h2>
+
+            <figure class="village-image">
+                <img src="river image.jpg" alt="River near Saroba" class="profile-pic">
+                <figcaption>Beautiful View of <b>SAROBA VILLAGE</b></figcaption>
+            </figure>
+
+            <p>My village name is <b>Saroba</b>. It is located near <b>Chakri Interchange</b>. 
+            The people of Saroba are kind, hardworking, and most of them are farmers. 
+            The environment here is calm and refreshing, surrounded by beautiful fields and trees.Life in Saroba is simple yet fulfilling. 
+            Early in the morning, you can hear the birds singings.and air is very fresh </p>
+
+            
+                        <div class="cards">
+                <div class="card">
+                    <img src="green.jpeg" alt="Green Fields">
+                    <h3>Green Fields</h3>
+                    <p>Our village is surrounded by wide green fields that give peace to the eyes and heart.</p>
+                    <ul>
+                        <li>Fresh crops</li>
+                        <li>Beautiful scenery</li>
+                        <li>Healthy air</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <img src="festival.jpeg" alt="Local Festival">
+                    <h3>Local Festivals</h3>
+                    <p>People celebrate festivals with joy, unity, and traditional music and food.</p>
+                    <ul>
+                        <li>Cultural songs</li>
+                        <li>Traditional food</li>
+                        <li>Community spirit</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <img src="school.jpeg" alt="Education">
+                    <h3>Education</h3>
+                    <p>Our schools focus on both moral and modern education for young minds.</p>
+                    <ul>
+                        <li>High literacy</li>
+                        <li>Dedicated teachers</li>
+                        <li>Bright students</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="special">
+            <h2>Special Things About Saroba</h2>
+            <ul>
+                <li>Green fields and natural beauty</li>
+                <li>Fresh environment</li>
+                <li>Peaceful life</li>
+                <li>Traditional festivals and food</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Educational and Other Facilities in Saroba</h2>
+            <table>
+                <caption>Summary of Schools and Facilities</caption>
+                <thead>
+                    <tr>
+                        <th rowspan="2">Category</th>
+                        <th rowspan="2">Name</th>
+                        <th colspan="2">Details</th>
+                    </tr>
+                    <tr>
+                        <th>Info</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Source: Saroba Village Committee & Education Dept</td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">Education</td>
+                        <td>Girls High School</td>
+                        <td>250 Students (Govt.)</td>
+                        <td>Hill Side</td>
+                    </tr>
+                    <tr>
+                        <td>Primary School</td>
+                        <td>180 Students (Govt.)</td>
+                        <td>Masjid Road</td>
+                    </tr>
+                    <tr>
+                        <td>Islamic Academy</td>
+                        <td>200 Students (Private)</td>
+                        <td>Near Dispensary</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Facilities</td>
+                        <td>Dispensary</td>
+                        <td>Basic Health Services</td>
+                        <td>Main Street</td>
+                    </tr>
+                    <tr>
+                        <td>Local Market</td>
+                        <td>Shops & Groceries</td>
+                        <td>Village Center</td>
+                    </tr>
+                    <tr>
+                        <td>Masjids</td>
+                        <td>3 Mosques</td>
+                        <td>Across Village</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you like to know more about Saroba Village or share your thoughts, Please fill the form below.</p>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Your Details</legend>
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br><br>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="+92 300 1234567"><br><br>
+                    <label for="age">Age:</label><br>
+                    <input type="number" id="age" name="age" min="10" max="100" placeholder="Enter your age (10–100)"><br><br>
+                    <label>Interested In:</label><br>
+                    <input type="checkbox" name="interest" value="Culture"> Culture
+                    <input type="checkbox" name="interest" value="Nature"> Nature
+                    <input type="checkbox" name="interest" value="Traditions"> Traditions<br><br>
+                    <label>Receive Updates?</label><br>
+                    <input type="radio" name="updates" value="Yes"> Yes
+                    <input type="radio" name="updates" value="No" checked> No<br><br>
+                    <label for="message">Your Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="40" placeholder="Write your message here..."></textarea><br><br>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </fieldset>
+            </form>
+        </section>
+
+        <section id="map">
+            <h2>Location on Map</h2>
+            <p class="highlight">
+                <a href="https://maps.app.goo.gl/CLYqPbcPqozpzUT2A" target="_blank">
+                    <img src="village.png" alt="Map icon" width="30"> View Map of Saroba
+                </a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div>My Village Saroba | Designed by Abrish Qayyum</div>
+    </footer>
+</body>
+</html>
+
+
+
