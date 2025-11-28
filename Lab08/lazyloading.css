@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+img {
+    margin-bottom: 30px;   /* Space between images */
+    max-width: 100%;       
+    border: 2px solid #ccc; 
+}
